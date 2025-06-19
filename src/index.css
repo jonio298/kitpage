@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .kit-card {
+    @apply bg-glass text-textLight border border-neon/20 rounded-xl p-6 shadow-neonSoft backdrop-blur-glass transition duration-300 hover:shadow-neon;
+  }
+
+  .kit-button {
+    @apply px-6 py-3 bg-neon hover:bg-yellow-300 text-black rounded-full font-bold transition duration-300 shadow-neon;
+  }
+
+  .kit-header-text {
+    @apply text-4xl font-bold text-neon mb-4;
+  }
+
+  .glass-header {
+    @apply border-b border-neon/10 p-6 shadow-sm backdrop-blur-glass bg-glass sticky top-0 z-50;
+  }
+
+  .text-dim {
+    @apply text-textDim;
+  }
+}
